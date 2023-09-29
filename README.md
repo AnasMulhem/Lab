@@ -20,15 +20,13 @@ This repository contains laboratory work completed at the Technion – Israel In
 
 ## About the Repository
 
-Provide information about the purpose of this repository and the coursework related to the Technion.
+This repository showcases selected Labs/Task from Technion coursework, highlighting learned skills in Java Android, UVM Verification, system on programable chip (SOPC), and Operating Systems, offering a glimpse into the technological exploration undertaken.
 
 ## Projects
 
 ### Java Android
 
-- **Project Name**: Brief description of the Java Android project.
-- **Technologies Used**: List of technologies and tools used.
-- **How to Run**: Instructions on how to run the project.
+- **Project Name**: This repository contains very basic and simple Android applications, crafted with fundamental Java, These applications serve as introductory examples of Android development.
 
 ### UVM Verification
 
@@ -48,47 +46,7 @@ Provide information about the purpose of this repository and the coursework rela
 - **Technologies Used**: List of technologies and tools used.
 - **How to Run**: Instructions on how to run the project.
 
-## Getting Started
-
-Provide instructions on how to get a local copy up and running. 
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/your-repository-name.git
-
-# Navigate to the directory
-cd your-repository-name
-
-# Add additional instructions as necessary
-```
-
-## Contributing
-
-Instructions for contributing to this repository. 
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Add a license for the project. Example:
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Anas Mulhem - https://www.linkedin.com/in/anas-mulhem-a815681b6 - anas.milhem.01@gmail.com
 
-Project Link: [https://github.com/yourusername/your-repository-name](https://github.com/yourusername/your-repository-name)
-
-## Acknowledgements
-
-- Mentors, colleagues or friends who helped you with the projects.
-- Any other acknowledgments you’d like to add.
-
----
-
-Make sure to personalize this template, adding or removing sections as you see fit, and filling in the details for each section. Including clear instructions and relevant information will help others understand and contribute to your projects.
