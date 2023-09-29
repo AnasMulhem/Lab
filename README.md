@@ -12,11 +12,8 @@ This repository contains laboratory work completed at the Technion – Israel In
     - [UVM Verification](#uvm-verification)
     - [SOPC](#sopc)
     - [Operating System](#operating-system)
-  - [Getting Started](#getting-started)
-  - [Contributing](#contributing)
-  - [License](#license)
   - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
+
 
 ## About the Repository
 
@@ -30,9 +27,7 @@ This repository showcases selected Labs/Task from Technion coursework, highlight
 
 ### UVM Verification
 
-- **Project Name**: Brief description of the UVM Verification project.
-- **Technologies Used**: List of technologies and tools used.
-- **How to Run**: Instructions on how to run the project.
+- **Project Name**:  In this UVM Verification project, the focus is on verifying an accelerator chip within the context of the VLSI laboratory at the Technion. Detailed verification processes ensure the chip's functionality and performance align with the specified requirements.
 
 ### SOPC
 
@@ -42,9 +37,8 @@ This repository showcases selected Labs/Task from Technion coursework, highlight
 
 ### Operating System
 
-- **Project Name**: Brief description of the Operating System project.
-- **Technologies Used**: List of technologies and tools used.
-- **How to Run**: Instructions on how to run the project.
+- **Project Name**: This Operating System project involved three tasks centered around modifying and enhancing the Linux kernel. Features were added to improve kernel functionality, showcasing a practical understanding of operating system internals and kernel development.
+
 
 ## Contact
 
