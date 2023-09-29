@@ -1,6 +1,6 @@
 # Technion Laboratory Repository
 
-This repository contains laboratory work completed at the Technion – Israel Institute of Technology. The projects in this repository cover various subjects such as Java Android development, UVM Verification, SOPC, and Operating System.
+This repository contains selected laboratory work completed at the Technion – Israel Institute of Technology. It includes various projects from diverse fields such as Java Android development, UVM Verification, SOPC, and Operating Systems. Please note that this compilation does not encompass all the laboratory work conducted, but highlights specific projects undertaken within these technological domains.
 
 ## Table of Contents
 
@@ -31,9 +31,8 @@ This repository showcases selected Labs/Task from Technion coursework, highlight
 
 ### SOPC
 
-- **Project Description**: Brief description of the SOPC project.
-- **Technologies Used**: List of technologies and tools used.
-- **How to Run**: Instructions on how to run the project.
+- **Project Description**: In this SOPC project at the Technion, we are developing a control system on an FPGA. The system monitors and manages a door and electric heater, both represented as switches. It alerts for an open door and logs various events, demonstrating the use of SOPC for home automation and security.
+
 
 ### Operating System
 
