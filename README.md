@@ -23,21 +23,21 @@ This repository showcases selected Labs/Task from Technion coursework, highlight
 
 ### Java Android
 
-- **Project Name**: This repository contains very basic and simple Android applications, crafted with fundamental Java, These applications serve as introductory examples of Android development.
+- **Project Description:**: This project contains very basic and simple Android applications, crafted with fundamental Java, These applications serve as introductory examples of Android development.
 
 ### UVM Verification
 
-- **Project Name**:  In this UVM Verification project, the focus is on verifying an accelerator chip within the context of the VLSI laboratory at the Technion. Detailed verification processes ensure the chip's functionality and performance align with the specified requirements.
+- **Project Description:**:  In this UVM Verification project, the focus is on verifying an accelerator chip within the context of the VLSI laboratory at the Technion. Detailed verification processes ensure the chip's functionality and performance align with the specified requirements.
 
 ### SOPC
 
-- **Project Name**: Brief description of the SOPC project.
+- **Project Description:**: Brief description of the SOPC project.
 - **Technologies Used**: List of technologies and tools used.
 - **How to Run**: Instructions on how to run the project.
 
 ### Operating System
 
-- **Project Name**: This Operating System project involved three tasks centered around modifying and enhancing the Linux kernel. Features were added to improve kernel functionality, showcasing a practical understanding of operating system internals and kernel development.
+- **Project Description:**: This Operating System project involved three tasks centered around modifying and enhancing the Linux kernel. Features were added to improve kernel functionality, showcasing a practical understanding of operating system internals and kernel development.
 
 
 ## Contact
