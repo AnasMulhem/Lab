@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">exp_1</string>
+    <string name="enter">Enter</string>
+    <string name="clear">Clear</string>
+    <string name="entertext">Enter Text</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="mycolortext">My color text</string>
+</resources>
