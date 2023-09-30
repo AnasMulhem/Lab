@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">exp_7</string>
+    <string name="play">Play</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="entermp3url">Enter Mp3 URL</string>
+</resources>

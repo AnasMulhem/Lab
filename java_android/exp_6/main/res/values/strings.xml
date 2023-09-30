@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exp_6</string>
+    <string name="testbackground">Test Background</string>
+    <string name="testbackground1">Test Background</string>
+    <string name="enterurrl">Enter Backgound Url</string>
+    <string name="enterurl">Enter URL</string>
+    <string name="back">Back</string>
+    <string name="back1">Back</string>
+</resources>
