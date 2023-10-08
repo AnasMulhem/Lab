@@ -38,6 +38,9 @@ This repository showcases selected Labs/Task from Technion coursework, highlight
 
 - **Project Description**: This Operating System project involved three tasks centered around modifying and enhancing the Linux kernel. Features were added to improve kernel functionality, showcasing a practical understanding of operating system internals and kernel development.
 
+### Computer Architecture benchmark
+
+- **Project Description**: 
 
 ## Contact
 
