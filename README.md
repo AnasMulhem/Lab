@@ -12,7 +12,7 @@ This repository contains selected laboratory work completed at the Technion – 
     - [UVM Verification](#uvm-verification)
     - [SOPC](#sopc)
     - [Operating System](#operating-system)
-    - [Computer_Architecture_benchmark](#Computer-Architecture-benchmark)
+    - [Computer Architecture benchmark](#Computer-Architecture-benchmark)
   - [Contact](#contact)
 
 
