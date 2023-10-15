@@ -27,6 +27,7 @@ struct slot_machine {
     struct win_condition condition;
     int initialized;
     int ref_count;
+    int argument;
 };
 #define MY_MAGIC 'r'
 #define GET_CONDITION _IOR(MY_MAGIC, 0, struct win_condition)
