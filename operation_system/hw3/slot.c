@@ -45,7 +45,7 @@ int minor = MINOR(inode->i_rdev);
         slot_machines[minor].condition.type = CONDITION_NEVER;
         slot_machines[minor].condition.argument = 0;
         slot_machines[minor].initialized = 1;
-
+        slot_machines[minor].argument = 0;
         // Initialize the reference count to 1
         slot_machines[minor].ref_count = 1;
 
@@ -75,6 +75,8 @@ int my_release(struct inode* inode, struct file* filp) {
         machine->initialized = 0; // Using 0 for false, to be consistent with your previous code
         // Reset the reference count for the next open
         machine->ref_count = 0;
+        slot_machines[minor].argument = 0;
+
     }
 
     return 0;
@@ -124,10 +126,13 @@ ssize_t my_read(struct file* filp, char* buf, size_t count, loff_t* f_pos){
         winnings = 0;
     }
     else if (slot_machines[minor].condition.type == CONDITION_SEQ) {
-        if (slot_machines[minor].condition.argument > 0) {
+        slot_machines[minor].argument = slot_machines[minor].argument - 1;
+        if (slot_machines[minor].argument  == 0) {
             winnings = slot_machines[minor].cash;
             slot_machines[minor].cash = 0; // Reset the cash
-            slot_machines[minor].condition.argument = slot_machines[minor].condition.argument - 1;
+            
+                slot_machines[minor].argument = slot_machines[minor].condition.argument;
+           
 
         }
         else
@@ -189,15 +194,19 @@ int my_ioctl(struct inode* inode, struct file* filp, unsigned int cmd_id, unsign
         if (copy_from_user(&slot_machines[minor].condition, (struct win_condition*)arg, sizeof(struct win_condition))) {
             return -EFAULT; // Invalid write operation
         }
+        slot_machines[minor].argument = slot_machines[minor].condition.argument;
+
         return 0;
     }
 
     case PRIZE_AMOUNT: {
         // Get the current cash amount in the slot machine
-        if (copy_to_user((int*)arg, &slot_machines[minor].cash, sizeof(int))) {
-            return -EFAULT; // Failed to copy data to user space
-        }
-        return 0;
+            printk(KERN_DEBUG "arg value: %lu\n", arg);
+            printk(KERN_DEBUG "arg value_p: %p\n", (void*)arg);
+            printk(KERN_DEBUG "slot_machines cash address: %p\n", &slot_machines[minor].cash);
+            printk(KERN_DEBUG "cash value: %d\n", slot_machines[minor].cash);
+           return slot_machines[minor].cash; // Failed to copy data to user space
+       
     }
 
     default:
@@ -233,6 +242,8 @@ int init_module(void)
         slot_machines[minor].cash = 0; // Initialize other fields as needed
         slot_machines[minor].operator_pid = 0;
         slot_machines[minor].ref_count = 0;
+        slot_machines[minor].argument = 0;
+
     }
 
     printk("Device driver registered - called from insmod\n");
